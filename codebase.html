@@ -1,0 +1,190 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="codebase.css" />
+    <title>Joshua's Portfolio</title>
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <div class="mynavbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#">Joshua Lamptey</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav" id="navstuff">
+            <li>
+              <a href="#about">
+                <span class="about"> </span>
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio">
+                <span class="portfolio"></span>Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="#contact"><span class="contact"></span>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--End Nav Bar-->
+    <!--Home-->
+    <section class="image-bg-fluid-height" id="about">
+      <h1>Joshua Lamptey</h1>
+      <img src="Josh.jpg" alt="A photo of me " class="first" />
+      <h3>Front-end Developer</h3>
+      <h3>Student</h3>
+    </section>
+    <!--End Home-->
+    <!--About-->
+    <section class="image-bg-fluid-height" id="portfolio">
+      <h1>Portfolio</h1>
+      <div class="row">
+        <div class="Project">
+          <a href="https://image-slider.joshualamptey.repl.co/">
+            <img src="image.jpeg" alt="" class="thumbnail" />
+            <div class="image-text">
+              <p>Date Started: Friday 12th August,2022</p>
+              <p>Date Completed: Tuesday 16th August,2022</p>
+              <p>Tools Used : HTML,CSS and YouTube</p>
+              <p>
+                Project Summary : I build the Javascript as an addition to
+                another(A Netflix Clone Project) But it would just be an
+                overkill so I didn't add it. but I still had to test it out so i
+                build this Project for it.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="Project">
+          <a href="https://survey-web.joshualamptey.repl.co/">
+            <img src="firstProject.jpg" alt="Survey Web" class="thumbnail" />
+            <div class="image-text">
+              <p>Date Started: Monday 25th July,2022</p>
+              <p>Date Completed: Saturday 30th July,2022</p>
+              <p>Tools Used: HTML,CSS and stackoverflow</p>
+              <p>
+                Project Summary: This is a basic survey website, making use of
+                all the basic input functions and using them to inquire
+                information from the user.
+              </p>
+            </div>
+          </a>
+          <p>Survey Page - FCC</p>
+        </div>
+        <div class="Project">
+          <a href="https://CSS-ART.joshualamptey.repl.co">
+            <img src="CSSART.jpg" alt="CSS-ART" class="thumbnail" />
+            <div class="image-text">
+              <p>Date Started: Tuesday 19th July,2022</p>
+              <p>Date Completed: Saturday 23rd July,2022</p>
+              <p>Tools Used:HTML,CSS and YouTube</p>
+              <p>
+                Project Summary: I saw something similar on twitter so I decided
+                to get creative and recreate my version of it.
+              </p>
+            </div>
+          </a>
+          <p>CSS-ART</p>
+        </div>
+        <div class="Project">
+          <a href="https://Restaurant-Website.joshualamptey.repl.co">
+            <img
+              src="RestaurantPage.jpg"
+              alt="Restaurant-Website"
+              class="thumbnail"
+            />
+            <div class="image-text">
+              <p>Date Started: Tuesday 12th July,2022.</p>
+              <p>Date Completed: Sunday 17th July,2022</p>
+              <p>Tools Used: Html and CSS</p>
+              <p>
+                Project Summary:This is a Landing Page for a Restaurant. It
+                gives information About the Restaurantas an establishment, and
+                also information on their services they provide and the rates at
+                which those services can be purchased.
+              </p>
+            </div>
+          </a>
+          <p>Restaurant Website</p>
+        </div>
+        <div class="Project">
+          <a href="https://event-page.joshualamptey.repl.co">
+            <img
+              src="EventPage.jpg"
+              alt="Event Page"
+              class="thumbnail"
+              id="third"
+            />
+            <div class="image-text">
+              <p>Date Started: Monday,4th July 2022</p>
+              <p>Date Completed: Sunday 10th July,2022.</p>
+              <p>Tools Used: HTML and CSS</p>
+              <p>
+                Project Summary:An Event Page that displays the date and venue
+                of the event and given more information on some of the people
+                that will be attending the event.The page also allows you to
+                RSVP for the Event
+              </p>
+            </div>
+          </a>
+          <p>Event Page</p>
+        </div>
+      </div>
+    </section>
+    <!--End Portfolio-->
+    <!--Contact--->
+    <section class="image-bg-fluid-height" id="about">
+      <form
+        action="mailto:joeywood567@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <div class="row">
+          <h1>CONTACT ME</h1>
+          <br />
+          <div class="form-group">
+            <label for="name">NAME:</label>
+            <input
+              type="name"
+              id="name"
+              class="form-control"
+              placeholder="Please Enter Your Name Here"
+              size="50"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">EMAIL</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter Your Email Address Here"
+              size="50"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="comment" class="control-label">COMMENT</label>
+            <input
+              type="comment"
+              id="comment"
+              class="form-control"
+              size="250"
+            />
+            <br />
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+          <footer>&copy;2022</footer>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
